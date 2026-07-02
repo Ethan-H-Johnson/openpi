@@ -1,0 +1,10 @@
+# Direct client deps for examples/xarm7/main.py. The openpi-client package is
+# installed separately, editable, from packages/openpi-client (see README).
+#
+# To (re)compile a pinned lockfile:
+#   uv pip compile examples/xarm7/requirements.in -o examples/xarm7/requirements.txt
+xArm-Python-SDK
+opencv-python
+numpy
+pillow
+tyro
